@@ -8,7 +8,7 @@ describe('open ea site', () => {
 
         cy.xpath("//input[@id='Postcode']/following-sibling::span").click();
 
-
+        // cy.get("css of element").select("drop down option name");
         //cy.get('#Postcode').type("London");
 
     }

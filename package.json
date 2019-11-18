@@ -1,0 +1,18 @@
+{
+  "name": "cypresstest",
+  "version": "1.0.0",
+  "description": "Test Cases for Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
+  },
+  "author": "Alok Shrivastava",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^3.6.1"
+  },
+  "devDependencies": {
+    "cypress-xpath": "^1.4.0"
+  }
+}
